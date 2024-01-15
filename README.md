@@ -28,7 +28,7 @@ kubectl apply -f ./components.yaml
 kubectl apply -f https://raw.githubusercontent.com/lazevedo-devops/minikube-metrics-server/main/components.yaml
 ```
 
-You'll see a message informing that components was installed at cluster.
+You'll see a message informing that components was installed at cluster, and around 30-40 seconds the pod of metric server will be up at kube-system namespace.
 
 #### Verifying Installation
 
